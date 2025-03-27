@@ -2,6 +2,8 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/dazhangwei/docker-ubuntu-lxde_cn?style=for-the-badge)](https://hub.docker.com/r/dazhangwei/docker-ubuntu-lxde_cn)
 
+[![GitHub](https://img.shields.io/github/license/ZhangWeiHelloWorld/docker-ubuntu-lxde_cn?style=for-the-badge)](https://github.com/ZhangWeiHelloWorld/docker-ubuntu-lxde_cn.git)
+
 [基于 yama07/docker-ubuntu-lxde 修改](https://github.com/yama07/docker-ubuntu-lxde)
 
 ## 项目介绍
