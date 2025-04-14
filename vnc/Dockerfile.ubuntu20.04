@@ -4,7 +4,7 @@ FROM ubuntu:20.04
 #   --build-arg ADDITIONAL_APT_GET_OPTS=--no-install-recommends
 ARG ADDITIONAL_APT_GET_OPTS=""
 
-RUN echo 'path-include=/usr/share/locale/ja/LC_MESSAGES/*.mo' > /etc/dpkg/dpkg.cfg.d/includes \
+RUN echo 'path-include=/usr/share/locale/zh/LC_MESSAGES/*.mo' > /etc/dpkg/dpkg.cfg.d/includes \
   && apt-get update \
   && DEBIAN_FRONTEND=noninteractive apt-get install -y $ADDITIONAL_APT_GET_OPTS \
   dbus-x11 \
